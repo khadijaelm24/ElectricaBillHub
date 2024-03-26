@@ -1,0 +1,152 @@
+body{
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+  display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.logo{
+    width: 32%;
+    height: 32%;
+}
+.pic{
+    width: 38%;
+    height: 38%;
+}
+.menu .icon{
+    display: none;
+}
+.menu, ul{
+    display: flex;
+    align-items: center;
+
+}
+.menu li{
+    list-style: none;
+    margin: 0 10px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.menu li a:hover{
+    color: #96DED1;
+}
+.radius-button, input[type="submit"], input[type="button"]{
+    background-color: #96DED1;
+    border: 1px solid #96DED1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.lien{
+    color: #000;
+    text-decoration: none;
+}
+.lien:hover{
+    color: #000;
+    text-decoration: none;
+}
+.text-deco{
+    text-decoration: none;
+    color: #000;
+    font-size:44px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    transition: all 0.3s ease;
+    text-align: center;
+    margin-top: -40px;
+}
+span{
+    color: #96DED1;
+}
+.banner-text{
+    color: #D1FFEB;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-align: center;
+}
+.desc{
+    font-size: 16px;
+}
+.radius-text-field{
+    background-color: #000;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 43px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: 1px solid #000;
+    align-items: center;
+    margin-right: 6px;
+}
+.textfield{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner{
+    margin-top: 70px;
+}
+.banner p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 5px;
+    padding: 0;
+    text-align: center;
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    height: 100px;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #96DED1;   
+}
+.image{
+    width: 50px;
+    height: 50px;  
+}
+.text-icon{
+    color: #96DED1;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.text-icon p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
